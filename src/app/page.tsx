@@ -1,11 +1,13 @@
-import { GlareCard } from "@/Components/ui/glare-card";
+import { LampDemo } from "@/Components/ui/lamp";
 
 export default function Home() {
   return (
-    <div>
-      <GlareCard >
-              <div className="text-amber-600 text-center">hello</div>
-      </GlareCard>
-    </div>
+    <main className="text-amber-50" >
+      <br />
+      <br />
+      <br />
+      <br />
+      <LampDemo />
+    </main>
   );
 }
