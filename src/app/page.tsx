@@ -1,4 +1,5 @@
 import { LampDemo } from "@/Components/ui/lamp";
+import UrlInputCard from "@/Components/ui/UrlInputCard";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <br />
       <br />
       <LampDemo />
+      <UrlInputCard />
     </main>
   );
 }
