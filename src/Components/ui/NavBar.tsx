@@ -44,10 +44,10 @@ const Navbar = () => {
           <div className="flex items-start justify-between sm:w-[40%] h-full">
             <div className="hidden sm:flex items-center justify-center gap-40 space-x-1 w-full h-auto border border-[#7042f861] px-[40px] py-[30px] rounded-lg text-gray-200 mt-10 hover:border-[#53c0ff98] transition-colors duration-300 shadow-full shadow-[#090979]/50 bg-[#03001417] backdrop-blur-md">
               
-                <Link href="/" className="cursor-pointer hover:text-blue-600 transition-colors duration-300">
+                <Link href="#urlinput" className="cursor-pointer hover:text-blue-600 transition-colors duration-300">
                   Check News
                 </Link>
-                <Link href="about-us" className="cursor-pointer hover:text-blue-600 transition-colors duration-300">
+                <Link href="#about-us-section" className="cursor-pointer hover:text-blue-600 transition-colors duration-300">
                   About Us
                 </Link>
             </div>  
