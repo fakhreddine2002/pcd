@@ -1,4 +1,5 @@
 import React from 'react';
+import { HoverBorderGradient } from './hover-border-gradient';
 
 const UrlInputCard = () => {
   return (
@@ -11,11 +12,13 @@ const UrlInputCard = () => {
       <input
         type="text"
         placeholder="Paste your URL here..."
-        className="w-full max-w-md p-4 rounded-xl bg-white/20 text-white placeholder-white/70 outline-none focus:ring-2 focus:ring-white/50 transition mb-4"
+        className="w-full max-w-md p-5 rounded-xl bg-white/20 text-white placeholder-white/70 outline-none focus:ring-2 focus:ring-white/50 transition mb-6"
       />
-      <button className="w-full max-w-md py-3 bg-white/20 text-white rounded-xl hover:bg-blue-500 transition font-semibold cursor-pointer">
-        Analyze
-      </button>
+      <div className="flex items-center justify-center bg-slate-950">
+        <HoverBorderGradient className="cursor-pointer">
+          Analyze
+        </HoverBorderGradient>
+      </div>
     </div>
   );
 };

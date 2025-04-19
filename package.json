@@ -13,12 +13,12 @@
     "@heroicons/react": "^2.2.0",
     "clsx": "^2.1.1",
     "mini-svg-data-uri": "^1.4.4",
-    "motion": "^12.4.10",
+    "motion": "^12.7.4",
     "next": "15.2.1",
     "postcss": "^8.5.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "tailwind-merge": "^3.0.2"
+    "tailwind-merge": "^3.2.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
